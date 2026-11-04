@@ -1,0 +1,27 @@
+#include <windows.h>
+1 ICON "../WinGrab.App/Assets/WinGrab.ico"
+2 RCDATA "../WinGrab.App/Assets/Fonts/Saira-Wide.ttf"
+1 RT_MANIFEST "setup.manifest"
+1 VERSIONINFO
+FILEVERSION 1,0,1,0
+PRODUCTVERSION 1,0,1,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "080404B0"
+  BEGIN
+   VALUE "CompanyName", "superman"
+   VALUE "FileDescription", "WinGrab Installation and Maintenance"
+   VALUE "FileVersion", "1.0.1"
+   VALUE "ProductName", "WinGrab"
+   VALUE "ProductVersion", "1.0.1"
+   VALUE "LegalCopyright", "superman"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x0804, 1200
+ END
+END
